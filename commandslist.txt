@@ -1,51 +1,211 @@
-cat ~/.ssh/id_rsa.pub
-su - ec2-user
-vi /etc/ssh/sshd_config
-grep -r "PasswordAuthentication" /etc/ssh/sshd_config.d/
-pwd
-cd /etc/ssh/sshd_config.d
-pws
-pwd
+#1726572710
 ls
-ll
-cd 50-cloud-init.conf 
-vi 50-cloud-init.conf
-systemctl restart sshd
+#1726572976
+export HISTTIMEFORMAT="%F %T "
+#1726572990
+source ~/.bashrc
+#1726573001
+history
+#1726573018
+history > commandslist.txt
+#1726575285
+sudo adduser pradeep
+#1726575368
+sudo passwd pradeep
+#1726575473
+sudo usermod -aG wheel pradeep
+#1726575497
+sudo nano /etc/ssh/sshd_config
+#1726575690
+sudo vi /etc/ssh/sshd_config
+#1726576224
+sudo systemctl restart sshd
+#1726576288
+exit
+echo "hello world"
+sudo vi /etc/ssh/sshd_config
+sudo systemctl restart sshd
+AllowUsers ec2-user
+sudo vi /etc/ssh/sshd_config
+sudo systemctl restart sshd
 ssh pradeep@54.204.164.130
-vi /etc/ssh/sshd_config
-systemctl restart sshd
-ssh pradeep@54.204.164.130
-sudo su - pradeep
+ssh -o PreferredAuthentications=password pradeep@your-ec2-public-ip
+ssh -o PreferredAuthentications=password pradeep@54.204.164.130
+ssh -o PubkeyAuthentication=no pradeep@54.204.164.130
+ssh -i "C:\Users\pradeep.peetla\Downloads\pradeep_keypair.pem" pradeep@54.204.164.130
+sudo su -
+cat ~/.ssh/id_rsa.pub
+vim C:\Users\pradeep.peetla/.ssh/id_rsa.pub
+cat C:\Users\pradeep.peetla/.ssh/id_rsa.pub
+yum update
+sudo yum update
+java -version
+sudo yum install java-17-openjdk
+java -version
+sudo yum install wget -y
+wget https://www.oracle.com/in/database/technologies/xe-downloads.html
+ wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1727075899_e62ae50743b3a03b49cd1f02536f3e6c
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1727246740_21d8dfd40c367c4f59b4ee4255bb2929
+ls
+ls -lh
+vi commandslist.txt
+rm 'https://www.oracle.com/in/database/technologies/xe-downloads.html'
+ls
+ mv 'oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1727246740_21d8dfd40c367c4f59b4ee4255bb2929' oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+wget https://www.oracle.com/database/technologies/oracle21c-linux-downloads.html
+ls
+rm oracle21c-linux-downloads.html 
+ls
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+wget https://vault.centos.org/8.3.2011/BaseOS/x86_64/os/Packages/compat-openssl10-1.0.2o-3.el8.x86_64.rpm
+wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+sudo yum install oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ sudo yum localinstall oracle-database-xe-21c-1.0.o18.x86_64.rpm
+sudo yum localinstall oracle-database-xe-21c-1.0.o18.x86_64.rpm
+ls
+sudo localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+sudo /etc/sysconfig/oracle-xe-21c.conf
+sudo /etc/sysconfig/oracle-xe-21c.configure
+sudo /etc/sysconfig/oracle-xe-21c.configur
+sudo /etc/init.d/oracle-xe-21c configure
+sudo /etc/sysconfig/oracle-xe-21c.conf
+sudo /etc/init.d/oracle-xe-21c configure
+cat /opt/oracle/cfgtoollogs/dbca/*log
+free -m
+sudo /etc/init.d/oracle-xe-21c configure
+cat /opt/oracle/cfgtoollogs/dbca/*log
+free -m
+df -h
+sudo /etc/init.d/oracle-xe-21c configure
+sudo less /opt/oracle/cfgtoollogs/dbca/*log
+sudo cat /opt/oracle/cfgtoollogs/dbca/*log
+sudo cat /opt/oracle/cfgtoollogs/dbca
+vi /opt/oracle/cfgtoollogs/dbca
+sudo vi /opt/oracle/cfgtoollogs/dbca
+sudo ls /opt/oracle/cfgtoollogs/
+sudo systemctl status oracle-xe-21c
+sudo yum install oracle-database-xe-21c
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+sudo /etc/init.d/oracle-xe-21c configure
+sudo systemctl status oracle-xe-21c
+rpm -qa | grep oracle
+sudo systemctl list-units --type=service | grep oracle
+sudo find /opt/oracle/cfgtoollogs -type f -name "*.log"
+lsnrctl status
+sudo lsnrctl start
+sudo cat /opt/oracle/cfgtoollogs/netca/netca_configure_out.log
+ls
+sudu yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+free -m
+free -g
+clear
+exit
+l
+ls
+free -g
+free -m
+sudo /etc/init.d/oracle-xe-21c configure
+sudo /etc/sysconfig/oracle-xe-21c.conf
+sudo /etc/init.d/oracle-xe-21c configure
+sudo yum install -y oracle-database-preinstall-21c compat-openssl10 --skip-broken
+df -h
+java -version
+
+ls
+rm xe-downloads.html
+ls
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+sudo /etc/sysconfig/oracle-xe-21c.conf
+sudo /etc/init.d/oracle-xe-21c configure
+export CV_ASSUME_DISTID=OEL8.4
+sudo /etc/init.d/oracle-xe-21c configure
+ls
+sudo /etc/init.d/oracle-xe-21c configure
+HISTORY
+history
+ls
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+sudo yum oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+sudo /etc/init.d/oracle-xe-21c configure
+cat /opt/oracle/cfgtoollogs/
+cat /opt/oracle/cfgtoollogs
+ls
 vi /opt/oracle/product/21c/dbhomeXE/cv/admin/cvu_config
-sudo /etc/init.d/oracle-xe-21c configure
-sqlplus
-export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
-export ORACLE_SID=XE
-export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
-sqlplus
-sqlplus
-sudo /etc/init.d/oracle-xe-21c configure
-export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
-export ORACLE_SID=XE
-export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
-sqlplus
-sqlplus
+sudo bash
 sqlplus
 history
+sqlplus
+ sudo bash
+ls - ah
+ls -ah
+vi .bash_profile 
+exit
+sqlplus
 sudo /etc/init.d/oracle-xe-21c configure
 sqlplus
+sudo bash
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+sudo systemctl status oracle-xe-21c
+sudo systemctl start oracle-xe-21c
+sudo systemctl status oracle-xe-21c
+sqlplus
+sqlplus
+exit
+ls
+clear
+cd /bin
+ls
+clear
+imp pradeep/pradeep FILE=/home/ec2-user/classicmodels.dmp 
+imp pradeep/pradeep123 FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log full=y
+exit
+sudo yum install git
+ls
+ssh-keygen -t rsa -b 4096 -c "peetlapradeep12@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "peetlapradeep12@gmail.com"
+cd /home/ec2-user/.ssh/id_rsa.pub
+cd /home/ec2-user/.ssh
+cat id_rsa.pub
+ls
+cd ../../
+cd ..
 pwd
 cd ..
-ls
-ls -a
-vi .bashrc
-ls
-cd ec2-user/
-ls -a
-vi .bashrc
-source .bashrc
+exit
+crontab -e
 ls
 cd training-biz-pradeep/
-vi push_history.sh 
+ls
+./push_history.sh
 ./push_history.sh 
-crontab -e
+sudo bash
+ls a-l
+ls -al
+./push_history.sh 
+cat push_history.sh 
+mv push_history.sh /home/ec2-user
+ls -al
+cd ..
+./push_history.sh 
+ls -al
+rm -rf training-biz-pradeep
+sudo bash
+ls -al
+git clone git@github.com:pradeep1126/training-biz-pradeep.git
+ls -al
