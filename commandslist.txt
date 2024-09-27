@@ -1,0 +1,49 @@
+cat ~/.ssh/id_rsa.pub
+su - ec2-user
+vi /etc/ssh/sshd_config
+grep -r "PasswordAuthentication" /etc/ssh/sshd_config.d/
+pwd
+cd /etc/ssh/sshd_config.d
+pws
+pwd
+ls
+ll
+cd 50-cloud-init.conf 
+vi 50-cloud-init.conf
+systemctl restart sshd
+ssh pradeep@54.204.164.130
+vi /etc/ssh/sshd_config
+systemctl restart sshd
+ssh pradeep@54.204.164.130
+sudo su - pradeep
+vi /opt/oracle/product/21c/dbhomeXE/cv/admin/cvu_config
+sudo /etc/init.d/oracle-xe-21c configure
+sqlplus
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+sqlplus
+sudo /etc/init.d/oracle-xe-21c configure
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+sqlplus
+sqlplus
+history
+sudo /etc/init.d/oracle-xe-21c configure
+sqlplus
+pwd
+cd ..
+ls
+ls -a
+vi .bashrc
+ls
+cd ec2-user/
+ls -a
+vi .bashrc
+source .bashrc
+ls
+cd training-biz-pradeep/
+vi push_history.sh 
