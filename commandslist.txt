@@ -268,3 +268,5 @@ sudo bash
 vi commandslist.txt 
 ls
 pwd
+ls
+ll
