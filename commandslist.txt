@@ -231,3 +231,13 @@ crontab -e
 ls
 pwd
 vi push_history.sh 
+ls
+pwd
+cd ..
+ls
+sudo baash
+sudo bash
+ls
+cd ec2-user/
+ls -a
+vi .bashrc
