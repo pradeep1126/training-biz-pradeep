@@ -230,3 +230,4 @@ cd ec2-user
 crontab -e
 ls
 pwd
+vi push_history.sh 
