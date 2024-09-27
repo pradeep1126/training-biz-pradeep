@@ -241,3 +241,8 @@ ls
 cd ec2-user/
 ls -a
 vi .bashrc
+pes
+pwd
+ls -a
+cd training-biz-pradeep/
+ls
