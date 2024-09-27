@@ -225,3 +225,8 @@ ls -al
 crontab -e
 ls -al
 cd ..
+ls
+cd ec2-user
+crontab -e
+ls
+pwd
