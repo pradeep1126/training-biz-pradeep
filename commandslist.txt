@@ -209,3 +209,7 @@ sudo bash
 ls -al
 git clone git@github.com:pradeep1126/training-biz-pradeep.git
 ls -al
+./push_history.sh 
+sai
+ls -al
+date
