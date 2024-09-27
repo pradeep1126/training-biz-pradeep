@@ -266,3 +266,5 @@ ls
 chmod +x training-biz-pradeep/push_history.sh
 sudo bash
 vi commandslist.txt 
+ls
+pwd
