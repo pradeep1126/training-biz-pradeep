@@ -246,3 +246,23 @@ pwd
 ls -a
 cd training-biz-pradeep/
 ls
+pwd
+git clone git@github.com:pradeep1126/training-biz-pradeep.git
+ls
+cd training-biz-pradeep/
+touch push_history.sh
+ls
+vi push_history.sh 
+chmod +x training-biz-pradeep/push_history.sh
+cd /home
+cd ..
+chmod +x training-biz-pradeep/push_history.sh
+pwd
+ls
+cd home
+ls
+cd ec2-user/
+ls
+chmod +x training-biz-pradeep/push_history.sh
+sudo bash
+vi commandslist.txt 
