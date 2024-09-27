@@ -47,3 +47,5 @@ source .bashrc
 ls
 cd training-biz-pradeep/
 vi push_history.sh 
+./push_history.sh 
+crontab -e
