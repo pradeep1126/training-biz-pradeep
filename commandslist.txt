@@ -213,3 +213,15 @@ ls -al
 sai
 ls -al
 date
+./push_history.sh 
+cat push_history.sh 
+date  
+time
+who am i
+crontab
+ls a-l
+l -al
+ls -al
+crontab -e
+ls -al
+cd ..
