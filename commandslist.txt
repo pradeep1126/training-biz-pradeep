@@ -270,3 +270,7 @@ ls
 pwd
 ls
 ll
+sudo yum update -y
+sudo yum install python3 -y
+sudo yum install python3-pip -y
+pip3 install psutil
