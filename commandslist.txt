@@ -279,3 +279,4 @@ python3 sendmail.py
 crontab -e
 python3 sendmail.py 
 vi sendmail.py
+exit
