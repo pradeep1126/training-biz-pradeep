@@ -288,3 +288,6 @@ exit
 clear
 sudo yum install mailx
 crontab -e
+aws ses send-email   --from "pradeep.peetla@bizacuity.com"   --destination "ToAddresses=pradeep.peetla@bizacuity.com"   --message "Subject={Data=Email Subject,Charset=utf8},Body={Text={Data=Email body text,Charset=utf8}}"
+sudo ./aws/install
+sudo yum install aws-cli
