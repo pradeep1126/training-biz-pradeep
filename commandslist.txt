@@ -287,3 +287,4 @@ vi .ssh/authorized_keys
 exit
 clear
 sudo yum install mailx
+crontab -e
