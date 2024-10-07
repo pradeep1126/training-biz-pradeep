@@ -280,3 +280,9 @@ crontab -e
 python3 sendmail.py 
 vi sendmail.py
 exit
+sudo vi /etc/ssh/sshd_config
+ls
+dir
+vi .ssh/authorized_keys 
+exit
+clear
