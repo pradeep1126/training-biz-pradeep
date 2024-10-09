@@ -293,3 +293,4 @@ sudo ./aws/install
 sudo yum install aws-cli
 ls
 vi payments_csv.csv
+vi payments_csv.csv 
