@@ -298,3 +298,6 @@ crontab -e
 dir 
 where push_history.sh 
 ls -A
+vi .bashrc
+ls
+history
