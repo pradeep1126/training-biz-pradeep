@@ -297,3 +297,4 @@ vi payments_csv.csv
 crontab -e
 dir 
 where push_history.sh 
+ls -A
