@@ -294,3 +294,6 @@ sudo yum install aws-cli
 ls
 vi payments_csv.csv
 vi payments_csv.csv 
+crontab -e
+dir 
+where push_history.sh 
