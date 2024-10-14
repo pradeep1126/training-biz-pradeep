@@ -301,3 +301,4 @@ ls -A
 vi .bashrc
 ls
 history
+exit
