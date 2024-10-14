@@ -305,3 +305,7 @@ exit
 ll *.csv|wc -l
 ll *.csv -size +500k |wc -l
 ll *.csv -size +500 |wc -l
+ll *.csv -size +500k |wc -l
+ll "*.csv" -size +500k |wc -l
+ls --help
+ll "*.csv"
