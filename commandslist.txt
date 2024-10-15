@@ -309,3 +309,9 @@ ll *.csv -size +500k |wc -l
 ll "*.csv" -size +500k |wc -l
 ls --help
 ll "*.csv"
+ll *.csv
+ll *.csv | du -h
+ll *.csv | wc -c
+ll *.csv | size -h
+ll *.csv | wc -c +400
+ll *.csv | wc -c +400k
