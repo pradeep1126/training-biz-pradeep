@@ -315,3 +315,4 @@ ll *.csv | wc -c
 ll *.csv | size -h
 ll *.csv | wc -c +400
 ll *.csv | wc -c +400k
+ls -l --block-size=MB *.csv | awk '$5+0 > 500' | wc -l
